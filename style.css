@@ -1,0 +1,71 @@
+@charset "UTF-8";
+* {
+  font-family: monospace;
+}
+
+.gameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 90vh;
+}
+.gameContainer .botStep {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gameContainer .botStep img {
+  margin: 5px;
+  border-radius: 20px;
+}
+.gameContainer .botStep .botStepImg {
+  box-shadow: 5px 5px 10px rgb(144, 142, 142);
+}
+.gameContainer .botStep .score {
+  display: flex;
+}
+.gameContainer .botStep .score .win {
+  color: rgb(56, 166, 56);
+}
+.gameContainer .botStep .score .los {
+  color: rgb(244, 104, 104);
+}
+.gameContainer .botStep .score .tie {
+  color: darkslategrey;
+}
+.gameContainer .botStep .score p {
+  margin: 0px 5px;
+  margin-bottom: 15px;
+}
+.gameContainer .userSteps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.gameContainer .userSteps .steps img {
+  box-shadow: 3px 3px 10px rgb(144, 142, 142);
+  margin: 5px;
+  border-radius: 20px;
+}
+.gameContainer .userSteps .button button {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 40px;
+  height: 70px;
+  width: 120px;
+  color: rgb(51, 45, 45);
+  background-color: rgb(255, 255, 227);
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.gameContainer .userSteps .button button:hover {
+  color: rgb(72, 92, 135);
+  background-color: rgb(245, 245, 195);
+}
+.gameContainer .userSteps .button button:active {
+  background-color: #3e8e41; /* цвет фона кнопки во время клика */
+  color: white; /* цвет текста кнопки во время клика */
+}/*# sourceMappingURL=style.css.map */
